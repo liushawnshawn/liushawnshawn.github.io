@@ -128,7 +128,7 @@ nav a:hover:before{
     padding-bottom: 25px;
     margin: auto;
     width: 100%;
-    background-image: url("Shawn web pic/background_photo.jpg");
+    background-image: url('~@/Shawn web pic/background_photo.jpg');
     background-size: 1600px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -177,7 +177,7 @@ nav a:hover:before{
     padding-bottom: 300px;
     margin: auto;
     width: 100%;
-    background-image: url("Shawn web pic/background_photo.jpg");
+    background-image: url('~@Shawn web pic/background_photo.jpg');
     background-size: 1600px;
     background-repeat: no-repeat;
     background-attachment: fixed;
