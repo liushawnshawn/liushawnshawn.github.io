@@ -73,8 +73,8 @@ nav ul{
 
 nav li{
     display: inline-block; 
-    margin-left: 35px; 
-    padding-top: 25px; 
+    #margin-left: 35px; 
+    padding-top: 30px; 
     position: relative;
 }
 
@@ -110,7 +110,7 @@ nav a:hover:before{
 }
 
 .inner{
-    width: 95%;
+    width: 97%;
     margin: 0 auto;  
 }
 .profile {
@@ -134,6 +134,7 @@ nav a:hover:before{
     #background-repeat: no-repeat; 
     #background-attachment: fixed; 
     background-color: tan;
+   
 }
 
 .ecosolidworks {
@@ -176,11 +177,11 @@ nav a:hover:before{
 
 .career{ 
     padding-top: 25px; 
-    padding-bottom: 300px; 
+    #padding-bottom: 0px; 
     margin: auto; 
     width: 100%;
     #background-image: url("file:///C:/Users/Shawn/Desktop/Shawn%20web%20pic/background_photo.jpg"); 
-    #background-size: 1600px; 
+    #background-size: 1300px; 
     #background-repeat: no-repeat; 
     #background-attachment: fixed; 
     background-color: tan;
@@ -198,13 +199,13 @@ nav a:hover:before{
 
 @media only screen and (max-width: 920px) {
     .career{
-        padding-bottom: 850px; 
+        padding-bottom: 0px; 
     }
 }
 
 @media only screen and (max-width: 615px) {
     .career{
-        padding-bottom: 1400px; 
+        padding-bottom: 0px; 
     }
    
 }
@@ -218,13 +219,10 @@ nav a:hover:before{
     background-color: white; 
 }
 
-#wrapper{
-    position: relative; 
-}
 
 box-wrap{
     width:100%; 
-    height: 270px; 
+    #height: 0px; 
     margin: 0 auto; 
     overflow: relative; 
     text-align: center; 
@@ -234,7 +232,7 @@ box-wrap{
 .image-box{
     width: 250px;
     height: 250px;
-    float: left;
+    #float: left;
     display: inline-block;
     overflow: hidden;
     position: relative; 
@@ -247,7 +245,7 @@ box-wrap{
 }
 
 .thumb_content{
-    padding: 70px 15px 0 15px; color: black;
+    padding: 60px 15px 0 15px; color: black;
 }
 
 #box1{
@@ -310,28 +308,28 @@ box-wrap{
     -webkit-transition: top .3s ease-in-out; 
 }
 .image-box:hover #box1 {
-    top: -240px;
+    top: -250px;
 }
 
 .image-box:hover #box2 {
-    top: -240px;
+    top: -250px;
 }
 
 .image-box:hover #box3 {
-    top: -240px;
+    top: -250px;
 }
 .image-box:hover #box4 {
-    top: -240px;
+    top: -250px;
 }
 .image-box:hover #box5 {
-    top: -240px;
+    top: -250px;
 }
 .footer-icon{
     list-style:none;
-    margin: 10px 0px;
+    margin: auto;
     display: inline-block;
     font-size: 30px;
-    padding: 20px 20px;
+    padding: 20px 30px;
     color: #fff;
     #border: 1px solid #fff;
     #border-radius: 25%;
@@ -341,7 +339,7 @@ box-wrap{
 .text{
     margin: auto; 
     font-size: 20px; 
-    width: 60%; 
+    width: 80%; 
     position: relative; 
     text-align: center; 
 }
@@ -372,7 +370,7 @@ footer{
 
 
 #container {
-    min-height: 100%;
+    #min-height: 80%;
     text-align: center; 
 }
 
