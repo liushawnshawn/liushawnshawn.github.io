@@ -243,7 +243,7 @@ box-wrap{
     height: 250px;
     position: absolute; 
     display: inline-block; 
-    background: url("Shawn%20web%20pic/road_trip.jpg") no-repeat; 
+    background: url("Shawn web pic/drone.png") no-repeat; 
     background-size: 400px;  
     
     -webkit-transition: top .3s ease-in-out; 
@@ -255,7 +255,7 @@ box-wrap{
     height: 250px;
     position: absolute; 
     display: inline-block; 
-    background: url("Shawn web pic/ecobotteam1.jpg") no-repeat; 
+    background: url("Shawn%20web%20pic/ecobot.jpg") no-repeat; 
     background-size: 270px;
     
     -webkit-transition: top .3s ease-in-out; 
@@ -291,7 +291,7 @@ box-wrap{
     height: 250px;
     position: absolute; 
     display: inline-block; 
-    background: url("Shawn%20web%20pic/drone.png") no-repeat; 
+    background: url("Shawn web pic/me and ecobot.jpg") no-repeat; 
     background-size: 270px;
     
     -webkit-transition: top .3s ease-in-out; 
@@ -325,10 +325,22 @@ box-wrap{
     transition: .5s; 
 }
 
+.footer-icon a{
+    text-decoration: none;
+    color: #fff;
+    transition: .5s; 
+}
+
+.footer-icon a:hover{
+    text-decoration: none;
+    color: #fff;
+    transition: .5s; 
+}
+
 .text{
     margin: auto; 
     font-size: 20px; 
-    width: 80%; 
+    width: 65%; 
     position: relative; 
     text-align: center; 
 }
@@ -366,4 +378,13 @@ footer{
 
 #main {
     overflow: hidden;
+}
+
+.thumb_content a{
+    text-decoration: none;
+    color: black;
+}
+
+.thumb_content a:hover{
+    color: black;
 }
