@@ -46,7 +46,10 @@ body.fade-out {
 }
 .name {
     float: left; 
-    padding-left: 20px;
+    padding-left: 10px;
+    font-family: Velfo;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .logo {
@@ -62,7 +65,7 @@ nav {
 header::after {
     content: '';
     display: table;
-    clear: both;
+    clear: both; 
 }
 
 nav ul{
@@ -230,11 +233,17 @@ box-wrap{
     text-align: left; 
     
 }
-
+@font-face{
+    #font-family: Velfo;
+    #src:url("Shawn%20web%20pic/Velfo.otf");
+    font-family: Elianto;
+    src:url("Shawn web pic/Elianto-Regular.ttf");
+}
 .thumb_content{
-    padding: 65px 15px 0 15px; color: black;
+    padding: 35px 15px 0 15px; color: black;
     text-align: center; 
     font-size: 15pt;
+    font-family: Velfo; 
 }
 
 #box1{
@@ -387,4 +396,8 @@ footer{
 
 .thumb_content a:hover{
     color: black;
+}
+
+h2{
+    font-family: Velfo;
 }
