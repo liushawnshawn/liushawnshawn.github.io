@@ -234,10 +234,12 @@ box-wrap{
     
 }
 @font-face{
-    #font-family: Velfo;
-    #src:url("Shawn%20web%20pic/Velfo.otf");
-    font-family: Elianto;
-    src:url("Shawn web pic/Elianto-Regular.ttf");
+    font-family: Velfo;
+    src:url("Shawn%20web%20pic/Velfo.otf");
+    src:local('Velfo'),
+        local('Velfo'),
+        url('Velfo.otf') format('opentype'),
+        url('Velfo.svg#font') format('svg');
 }
 .thumb_content{
     padding: 35px 15px 0 15px; color: black;
