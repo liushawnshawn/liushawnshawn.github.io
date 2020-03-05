@@ -53,9 +53,9 @@ body.fade-out {
 }
 
 .name img{
-    padding-top:5pt;
-    width:130pt;
-    height:auto;
+    #padding-top:5pt;
+    #width:130pt;
+    #height:auto;
 }
 
 .logo {
@@ -407,6 +407,5 @@ footer{
 }
 
 h2{
-    font-family: Verdana, Velfo;
-    font-style:oblique;
+    font-family: Velfo, Verdana;
 }
