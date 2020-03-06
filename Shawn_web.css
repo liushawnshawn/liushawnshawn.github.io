@@ -270,12 +270,10 @@ box-wrap{
     background-size: 400px;  
     
     -webkit-transition: top .3s ease-in-out; 
-}
-
-#box1 img{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
+
 
 #box2{
     top: 0; 
@@ -285,7 +283,8 @@ box-wrap{
     display: inline-block; 
     background: url("Shawn%20web%20pic/ecobot.jpg") no-repeat; 
     background-size: 270px;
-    
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
     -webkit-transition: top .3s ease-in-out; 
 }
 
@@ -297,7 +296,8 @@ box-wrap{
     display: inline-block; 
     background: url("Shawn web pic/shieldX group photo.jpg") no-repeat; 
     background-size: 260px;
-    
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
     -webkit-transition: top .3s ease-in-out; 
 }
 
@@ -309,7 +309,8 @@ box-wrap{
     display: inline-block; 
     background: url("Shawn%20web%20pic/community%20involvement.jpg") no-repeat; 
     background-size: 260px;
-    
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
     -webkit-transition: top .3s ease-in-out; 
 }
 
@@ -321,7 +322,8 @@ box-wrap{
     display: inline-block; 
     background: url("Shawn web pic/me and ecobot.jpg") no-repeat; 
     background-size: 270px;
-    
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
     -webkit-transition: top .3s ease-in-out; 
 }
 .image-box:hover #box1 {
@@ -419,5 +421,5 @@ footer{
 
 h2{
     font-family: Velfo, Verdana;
-    color:darkgrey;
+    color:darkgreen;
 }
