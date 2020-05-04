@@ -165,12 +165,13 @@ nav a:hover:before{
 
 .top-container {
   position: relative; 
-  text-align: center;
+  text-align: left;
 }
 
 .top-container img{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+    height: 20%;
 }
 
 
@@ -370,11 +371,10 @@ box-wrap{
 .text{
     margin: auto; 
     font-size: 20px; 
-    width: 75%; 
+    width: 50%; 
     position: relative; 
-    text-align: center; 
+    text-align: left; 
 }
-
 
 footer{
     background-color: dimgrey; 
@@ -420,6 +420,18 @@ footer{
 }
 
 h2{
-    font-family: Velfo, Verdana;
+    #font-family: Velfo, Verdana;
     color:darkolivegreen;
 }
+
+p{
+    text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+  .text {
+    width:90%;
+    text-align:center;
+  }
+}
+
