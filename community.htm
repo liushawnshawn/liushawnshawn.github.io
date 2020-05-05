@@ -25,12 +25,22 @@
         <h1 class= "name"> Shawn Liu</h1>   
         <nav>
             <ul>
-                <!--<li> <a href = "#aboutme"> About Me</a></li>-->
-                <!--<li> <a href = "#back-to-top">Back to Top </a> </li>-->
-                <!--<li> <a href = "#education"> Education & Awards </a> </li>--> 
-                <!--<li> <a href = "#Contact"> Contact </a></li>-->
-                <!-- <li> <a href = "index.htm"> Home</a></li>-->
-                <li> <a href = "Resume%20(10-15-2019).pdf"> Resume </a></li>
+                <li> <div class="dropdown">
+                    <div class="container1" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                        </div>
+                        <!--<button class="dropbtn">Dropdown</button>-->
+                        <div class="dropdown-content">
+                        <a href = "index.htm" data-ajax="false">About Me</a>
+                        <a href = "education.htm" data-ajax="false">Education & Skills</a>
+                        <a href = "project.htm" data-ajax="false">Projects</a>
+                        <a href = "work.htm" data-ajax="false">Work Experience</a>
+                        <a href = "community.htm" data-ajax="false">Community Involvement</a>
+                        <a href = "Resume%20(10-15-2019).pdf">My Resume</a>
+                        </div>
+                    </div></li>
             </ul>
         </nav>
         </div>
@@ -154,8 +164,8 @@
             }
         }
         
-   
     </script>
+    
     </body>
     </head>
     
